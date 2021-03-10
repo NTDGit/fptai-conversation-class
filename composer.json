@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "fptai\\": "src/fptai/"
+            "FPTAI\\": "src/"
         }
     }
 }
