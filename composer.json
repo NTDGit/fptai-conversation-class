@@ -1,22 +1,21 @@
 {
-    "name": "ntdgit/php-fptai-conversation-api",
+    "name": "ntdgit/fptai-conversation",
     "description": "A PHP class to generate JSON output for your chatbot (build with FPTAI), DME have some types of the message include: Text, Image, Carousel, Form, Quick reply card",
-    "homepage": "https://github.com/NTDGit/php-fptai-conversation-class",
-    "keywords": ["chatbot", "fptai", "messenger bot", "facebook bot", "json api"],
     "type": "library",
     "license": "MIT",
-    "authors": [{
-      "name": "Nguyen Dat",
-      "email": "nguyendat97cv@gmail.com",
-      "homepage": "https://facebook.com/starkenter",
-      "role": "Developer"
-    }],
+    "authors": [
+        {
+            "name": "Nguyen Dat",
+            "email": "nguyendat97cv@gmail.com"
+        }
+    ],
+    "minimum-stability": "beta",
     "require": {
-      "php": ">=5.3.0"
+        "php": ">=5.3.0"
     },
     "autoload": {
-      "psr-4": {
-        "ntdgit\\FPTAI\\": "src/"
-      }
+        "psr-4": {
+            "fptai\\": "src/fptai/"
+        }
     }
-  }
+}

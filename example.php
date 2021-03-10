@@ -1,7 +1,7 @@
 <?php
-require_once __DIR__ . DIRECTORY_SEPARATOR . 'vendor/autoload.php';
-use ntdgit\FPTAI\FPT_Chatbot;
-$chatbot = new FPT_Chatbot(TRUE,'123456');
+require __DIR__ . '/vendor/autoload.php';
+$chatbot = new fptai\FPTChatbot(TRUE,'123456');
+
 
 $chatbot->sendText('Nội dung');
 $chatbot->sendImage('https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png','XINCHAO');
@@ -25,5 +25,5 @@ $chatbot->createQuickReply("Nội dung hiển thị trước khi có Quick Reply
       $chatbot->creatCarousel("<image url>","B1 Desc","New Carousel", $chatbot->createButtonToBlock("TextButton2","BlockName2"))
     )
     );
-
+ 
 ?>
